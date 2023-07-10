@@ -4,7 +4,7 @@ export default function LeftTab(){
 
     return(
         <div>
-            Addon
+            <h1>Addon</h1>
         </div>
     )
 }

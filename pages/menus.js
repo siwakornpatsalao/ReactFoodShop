@@ -4,7 +4,7 @@ export default function LeftTab(){
 
     return(
         <div>
-            Menu
+            <h1>Menu</h1>
         </div>
     )
 }
