@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {motion} from 'framer-motion';
 import '../components/LeftTab.module.css'
-import { NavLink } from 'react-router-dom';
 import Link from 'next/link';
 
 const routes =[
@@ -25,7 +24,7 @@ export default function LeftTab() {
         <motion.div animate={{width: "200px"}} className="sidebar">
             <section className="routes">
                 {routes.map((route)=>(
-                    <Link to={route.path} key={route.name}>
+                    <Link href={route.path} key={route.name}>
                         <div className='link_text'>{route.name}</div>
                     </Link>
                 ))}
